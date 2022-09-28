@@ -1,0 +1,153 @@
+
+body{
+	font-family: 'Montserrat', sem serifa;
+	background-image: radial-gradient(circle at 48.28% 52.98%, #e8e1e5 0, #dfd4da 16.67%, #d2c3ce 33.33%, #c3b0c0 50%, #b39db3 66.67%, #a48ea9 83.33%, #9883a2 100%);
+	color: #4B0082;
+}
+#logo{
+	width: 100%;
+	height: 450px;
+}	
+header{
+	background-image: radial-gradient(circle at 48.28% 52.98%, #e8e1e5 0, #dfd4da 16.67%, #d2c3ce 33.33%, #c3b0c0 50%, #b39db3 66.67%, #a48ea9 83.33%, #9883a2 100%);
+	padding: 20px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	
+}
+nav{
+	position: absolute;
+	top: 110px;
+	right: -250px;
+
+
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #191970;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+nav a:hover{
+	color: #DC143C;
+
+}
+.servicos{
+
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.servicos li{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin: 0 0.5%;
+	padding: 30px 20 px;
+	color: #191970;
+/*	
+	box-sizing: border-box;
+	border: 2px solid #191970 ;	
+	border-radius: 5%;
+*/
+}
+/*
+.servicos li: hover{
+	border-color: #DC143C ;
+
+}
+.servicos li:active{
+	border-color:#00FFFF ;
+}
+*/
+.servicos h2{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.descricao{
+	font-size: 18px;	
+}
+footer{
+	text-align: center;
+	background: #483D8B
+	padding: 40px 0;
+	color: #191970;
+	font-size: 13px;
+ 
+}
+/*CSS da pag home*/
+.logo{
+	width: 100%;
+
+}
+.titulo_centro{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+.principal{
+	padding: 3em 0;
+	background: radial-gradient(circle at 48.28% 52.98%, #e8e1e5 0, #dfd4da 16.67%, #d2c3ce 33.33%, #c3b0c0 50%, #b39db3 66.67%, #a48ea9 83.33%, #9883a2 100%);
+	box-sizing: border-box;
+	border: 2px solid #191970 ;	
+}
+.principal p{
+	margin: 0 0 1em;
+	text-align: center;
+}
+.principal strong{
+	font-weight: bold;
+}
+.principal em{
+	font-style: italic;
+}
+.pata{
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.servicos{
+	padding: 3em 0;
+
+	
+}
+.conteudo-beneficios{
+	width: 640px;
+	margin: 0 auto;
+
+
+}
+.lista{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+
+
+}
+.itens{
+	line-height: 1.5;
+	font-weight: bold;
+}
+.itens:after{
+	content:🐶;
+}
+.imagem_beneficios{
+	width: 50%;
+}
+.video{
+	width: 560px;
+	margin: 2em auto;
+
+}

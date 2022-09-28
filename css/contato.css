@@ -1,0 +1,62 @@
+
+body{
+	font-family: 'Montserrat', sem serifa;
+	background-image: radial-gradient(circle at 48.28% 52.98%, #e8e1e5 0, #dfd4da 16.67%, #d2c3ce 33.33%, #c3b0c0 50%, #b39db3 66.67%, #a48ea9 83.33%, #9883a2 100%);
+	color: #4B0082;
+}
+#logo{
+	width: 100%;
+	height: 450px;
+}	
+header{
+	background-image: radial-gradient(circle at 48.28% 52.98%, #e8e1e5 0, #dfd4da 16.67%, #d2c3ce 33.33%, #c3b0c0 50%, #b39db3 66.67%, #a48ea9 83.33%, #9883a2 100%);
+	padding: 20px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	
+}
+nav{
+	position: absolute;
+	top: 110px;
+	right: -250px;
+
+
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #191970;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+nav a:hover{
+	color: #DC143C;
+
+}
+
+body{
+	background: radial-gradient(circle at 48.28% 52.98%, #e8e1e5 0, #dfd4da 16.67%, #d2c3ce 33.33%, #c3b0c0 50%, #b39db3 66.67%, #a48ea9 83.33%, #9883a2 100%);
+
+}
+.btn{
+	text-align: center;
+	padding: 20px;
+	background:mistyrose;
+	position: relative;
+	width:250px;
+	border-radius:20%;
+}
+.btn{
+	display: inline-block;
+	padding: 40px 0;
+	justify-content: space-between;
+}
